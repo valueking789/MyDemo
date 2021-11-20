@@ -77,4 +77,5 @@ void Cursor::rightClick(Table& gameBoard) {
 	if (gameBoard.checkVeiled(this->x, this->y)) {
 		gameBoard.changeMarkState(this->x, this->y);
 	}
+	//wtf is this shit
 }
